@@ -1105,25 +1105,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rova/proprietary/vendor/res/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_scale.png
 
 PRODUCT_PACKAGES += \
-    libaudio_log_utils \
-    libgpustats \
-    libqmiservices \
-    libsdm-disp-vndapis \
+    libfastcvopt \
     libthermalclient \
-    libtime_genoff \
-    libts_detected_face_hal \
-    libts_face_beautify_hal \
-    libloc_api_v02 \
+    CneApp \
     IWlanService \
+    IFAAService \
+    SoterService \
     TimeService \
     PowerOffAlarm \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
+    QtiTelephony \
     QtiTelephonyService \
-    embms \
-    imssettings \
-    uceShimService \
+    WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    android.hardware.gnss@2.0-service-qti \
-    manifest_android.hardware.drm@1.2-service.widevine \
-    vendor.qti.gnss@3.0-service
+    WfdCommon \
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.neuralnetworks@1.3-service-qti-hta \
+    android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_vendor.xiaomi.hardware.mlipay \
+    vendor.qti.gnss@4.0-service \
+    vendor.qti.hardware.limits@1.0-service
