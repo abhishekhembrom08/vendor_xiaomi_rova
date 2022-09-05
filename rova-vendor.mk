@@ -1105,25 +1105,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rova/proprietary/vendor/res/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_scale.png
 
 PRODUCT_PACKAGES += \
-    libaudio_log_utils \
-    libgpustats \
-    libqmiservices \
-    libsdm-disp-vndapis \
+    libfastcvopt \
     libthermalclient \
-    libtime_genoff \
-    libts_detected_face_hal \
-    libts_face_beautify_hal \
-    libloc_api_v02 \
+    CneApp \
     IWlanService \
     TimeService \
+    com.oneplus.gpudrivers.kona.api30 \
+    com.qualcomm.qti.gpudrivers.kona.api30 \
     PowerOffAlarm \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
-    embms \
-    imssettings \
-    uceShimService \
-    dpmserviceapp \
+    IFAAService \
     ims \
     qcrilmsgtunnel \
-    android.hardware.gnss@2.0-service-qti \
-    manifest_android.hardware.drm@1.2-service.widevine \
-    vendor.qti.gnss@3.0-service
+    qcnvitems \
+    tcmclient \
+    com.qti.dpmframework \
+    dpmapi \
+    com.android.hotwordenrollment.common.util \
+    qcrilhook \
+    vendor.qti.hardware.alarm-V1.0-java \
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.neuralnetworks@1.3-service-qti-hta \
+    android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    vendor.pixelworks.hardware.display.iris-service \
+    vendor.pixelworks.hardware.feature.irisfeature-service \
+    vendor.qti.gnss@4.0-service
