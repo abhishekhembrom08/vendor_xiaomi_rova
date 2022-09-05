@@ -1109,27 +1109,23 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     CneApp \
     IWlanService \
+    IFAAService \
+    SoterService \
     TimeService \
-    com.oneplus.gpudrivers.kona.api30 \
-    com.qualcomm.qti.gpudrivers.kona.api30 \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    QtiTelephony \
     QtiTelephonyService \
-    IFAAService \
+    WfdService \
+    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    qcnvitems \
-    tcmclient \
-    com.qti.dpmframework \
-    dpmapi \
-    com.android.hotwordenrollment.common.util \
-    qcrilhook \
-    vendor.qti.hardware.alarm-V1.0-java \
+    WfdCommon \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.pixelworks.hardware.display.iris-service \
-    vendor.pixelworks.hardware.feature.irisfeature-service \
-    vendor.qti.gnss@4.0-service
+    manifest_vendor.xiaomi.hardware.mlipay \
+    vendor.qti.gnss@4.0-service \
+    vendor.qti.hardware.limits@1.0-service
